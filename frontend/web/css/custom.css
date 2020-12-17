@@ -1,0 +1,107 @@
+*{
+    font-family: 'Futura PT' !important;
+}
+.wrapper{
+    padding: 130px 15px;
+}
+.languages li a img{
+    width: 24px;
+}
+.languages li a{
+    transition: .3s all ease;
+}
+.languages li.active a{
+    background: #efefef;
+}
+.languages li a:hover{
+    background: #ececec;
+}
+.portal-info img{
+    height: 120px;
+}
+.entry-content{
+    font-size: 16px;
+    color: #000;
+}
+.entry-content em{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.entry-content a.btn{
+    font-size: 17px;
+}
+body{
+    padding: 0;
+}
+.footer{
+    color: #333;
+    background: #d3d9de;
+}
+.creator{
+    background-image: linear-gradient(to right, #4e16d5, #4fc6e1);
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff !important;
+    box-shadow: 2px 2px 3px rgba(0,0,0,.3);
+    font-size: 14px;
+}
+.creator:hover{
+    color: #25f1fb !important;
+    box-shadow: none;
+}
+.help-block{
+    color: red;
+}
+form{
+    color: #111;
+}
+form div.required label.control-label:after {
+    content:" * ";
+    color:red;
+  
+}
+.check-result .table{
+    color: #000;
+}
+@media (max-width: 480px){
+    header .navbar-custom .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    header .navbar-custom .container ul:first-child{
+        order: 2;
+    }
+    header .navbar-custom .container ul:last-child{
+        order: 1;
+    }
+    .navbar-custom .topnav-menu .nav-link{
+        padding: 0 5px;
+        font-size: 11px;
+    }
+    .portal-info{
+        text-align: center;
+    }
+    .portal-info .col-md-2{
+        margin-bottom: 10px;
+    }
+    .portal-info h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .portal-info img{
+        width: 100%;
+        height: auto;
+    }
+    .portal-info h2{
+        font-size: 24px;
+    }
+}
+
+.navbar-custom{
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
